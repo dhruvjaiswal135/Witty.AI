@@ -1,0 +1,54 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "Chat bot integrated with AI modules, to return replies direct to senders based on their requirement &amp; information of user.",
+  "homepage": "https://github.com/globaldesignindia/ai-chatbot#readme",
+  "bugs": {
+    "url": "https://github.com/globaldesignindia/ai-chatbot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globaldesignindia/ai-chatbot.git"
+  },
+  "license": "MIT",
+  "author": "Alok Kumar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@types/mongoose": "^5.11.96",
+    "@types/qrcode": "^1.5.5",
+    "body-parser": "^2.2.0",
+    "cluster": "^0.7.7",
+    "compression": "^1.8.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "http": "^0.0.1-security",
+    "mongoose": "^8.16.0",
+    "morgan": "^1.10.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/compression": "^1.7.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.10.0",
+    "@types/qrcode-terminal": "^0.12.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.0"
+  }
+}
