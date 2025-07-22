@@ -11,7 +11,7 @@
     "url": "git+https://github.com/globaldesignindia/ai-chatbot.git"
   },
   "license": "MIT",
-  "author": "Alok Kumar",
+  "author": "Dhruv Narayan Jaiswal",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {

@@ -44,22 +44,22 @@ class ContextService {
     const defaultContext: UserContext = {
       id: this.defaultContextId,
       personalInfo: {
-        name: 'Alok Kumar',
-        role: 'Sr. Software Engineer',
+        name: 'Dhruv Narayan Jaiswal',
+        role: 'Software Engineer',
         expertise: ['software development', 'communication', 'mentorship'],
         personality: 'Helpful and professional',
         communicationStyle: 'Clear and concise',
         availability: '24/7'
       },
       organizationInfo: {
-        name: 'Viacation Tourism Pvt Ltd',
+        name: 'Lifewise Medtech Pvt. Ltd.',
         industry: 'Technology',
         services: ['Software Solutions', 'AI assistance', 'Communication'],
         values: ['Efficiency', 'Helpfulness', 'Professionalism'],
         contactInfo: {
-          email: 'thealokkumarsingh@gmail.com',
-          phone: '+917042184136',
-          website: 'https://th3hero.github.io'
+          email: 'dhruvjaiswal135@gmail.com',
+          phone: '+919118607143',
+          website: 'https://github.com/dhruvjaiswal135'
         }
       },
       aiInstructions: {

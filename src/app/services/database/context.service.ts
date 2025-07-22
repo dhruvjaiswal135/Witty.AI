@@ -283,11 +283,11 @@ class DatabaseContextService {
     // Create a default context
     const defaultContextData: ContextCreateData = {
       contextId: 'default',
-      name: 'Alok Kumar (Default Context)',
-      description: 'Default AI context for Alok Kumar, Senior Product Engineer and Team Lead at ViaCation Tourism Pvt Ltd',
+      name: 'Dhruv Narayan Jaiswal (Default Context)',
+      description: 'Default AI context for Dhruv Narayan Jaiswal, Senior Product Engineer and Team Lead at ViaCation Tourism Pvt Ltd',
       personalInfo: {
-        name: 'Alok Kumar',
-        role: 'Senior Product Engineer / Team Lead',
+        name: 'Dhruv Narayan Jaiswal',
+        role: 'Software Engineer',
         expertise: [
           'Node.js', 'React', 'Next.js', 'NestJS', 'Express.js', 'JavaScript', 'TypeScript', 'PHP', 'Laravel', 'Python', 'Go', 'GraphQL', 'RESTful APIs',
           'PostgreSQL', 'MongoDB', 'DocumentDB', 'MySQL', 'Prisma', 'Sequelize',
@@ -304,9 +304,9 @@ class DatabaseContextService {
         services: ['Travel booking', 'Tour management', 'Cloud infrastructure optimization'],
         values: ['Scalability', 'Performance', 'Teamwork', 'Mentorship', 'Innovation'],
         contactInfo: {
-          email: 'thealokkumarsingh@gmail.com',
-          phone: '+91 7042184136',
-          website: 'viacation.com'
+          email: 'dhruvjaiswal135@gmail.com',
+          phone: '+91 9118607143',
+          website: 'https://github.com/dhruvjaiswal135'
         }
       },
       aiInstructions: {
