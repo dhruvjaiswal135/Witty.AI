@@ -31,7 +31,7 @@ class GeminiService {
 
     try {
       this.genAI = new GoogleGenerativeAI(apiKey);
-      this.model = this.genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+      this.model = this.genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
       this.isInitialized = true;
     } catch (error) {
       console.error('Failed to initialize Gemini service:', error);
@@ -143,7 +143,7 @@ Please provide a response:
   getStatus(): { ready: boolean; model: string; apiKey: boolean } {
     return {
       ready: this.isReady(),
-      model: 'gemini-1.5-flash',
+      model: 'gemini-2.5-flash',
       apiKey: !!environment.gemini.key
     };
   }
